@@ -1,0 +1,95 @@
+.cardItem__characteristics {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  margin-bottom: 2.15rem;
+}
+
+
+.characteristics__title {
+  font-size: 0.6rem;
+  letter-spacing: 0.05rem;
+  color: #ACB8BF;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-bottom: 0.3rem;
+  font-family: Roboto;
+}
+
+.title_description {
+  letter-spacing: 0rem;
+  color: #303030;
+  font-size: 0.7rem;
+  font-family: Roboto;
+}
+
+.characteristics__engine {
+  align-content: stretch;
+  flex: 1 1 auto;
+  max-width: 8.8rem;
+  width: 100%;
+  margin-bottom: 0.9rem;
+  font-size: 0.6rem;
+}
+
+.characteristics__transmission {
+  margin-bottom: 0.9rem;
+  flex: 1 1 auto;
+  max-width: 8.8rem;
+  width: 100%;
+}
+
+.characteristics__mileage {
+  flex: 1 1 auto;
+  max-width: 8.8rem;
+  margin-bottom: 0.9rem;
+  width: 100%;
+}
+
+
+.characteristics__color {
+  flex: 1 1 auto;
+  max-width: 8.8rem;
+  margin-bottom: 0.9rem;
+  width: 100%;
+}
+
+.green {
+  color: #22BF86;
+}
+
+.cardPrice__title {
+  font-size: 1.4rem;
+  margin-bottom: 0.3rem;
+  font-family: Roboto;
+}
+
+.cardPrice__subTitle {
+  font-size: 0.8rem;
+  color: #303030;
+  font-family: Roboto;
+}
+
+.purchase {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buyButton {
+  width: 7.25rem;
+  height: 2.4rem;
+  background: linear-gradient(112deg, #11998E 0%, #38EF7D 100%);
+  border-radius: 0.4rem;
+  text-align: center;
+  font: normal normal medium Roboto;
+  font-size: 0.5rem;
+  letter-spacing: 0.1rem;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border: unset;
+  font-family: Roboto;
+}
+
+.buyButton:hover{
+  background: linear-gradient(350deg, #11998E 0%, #38EF7D 100%);
+}

@@ -1,0 +1,8 @@
+.preloader {
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  left: 46.5%;
+  top: 15%;
+  margin: auto;
+}
