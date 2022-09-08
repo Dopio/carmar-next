@@ -1,11 +1,9 @@
-import React, { useState } from 'react'
-
 import classes from './Menu.module.css'
 
 import { brandList } from '../../constants/brands'
+import { useState } from 'react'
 
-
-export const Menu = ({ setBrand, brand, getCars }) => {
+export const Menu = ({ brand, getCars }) => {
   const [active, setActive] = useState(false)
 
   const cardSelectHandler = (brand) => {

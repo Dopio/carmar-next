@@ -4,7 +4,6 @@ import { CardsList } from '../components/CardsList/CardsList'
 import { Menu } from '../components/Menu/Menu'
 import { useState } from 'react'
 import { brandList } from '../constants/brands'
-/* import { commonFetcher } from '../pages/api/getCars' */
 import { getCarListUrl } from '../urls/cars'
 
 /* Контейнер работы с карточками автомобиля */
@@ -19,10 +18,6 @@ export const CarCardsContainer = ({ initialData }) => {
     setData(data)
     setBrand(brand)
   }
-
-
-  /* const { data, error } = useSWR(getCarListUrl(brand), commonFetcher)
-  if (error) {return 'Произошла ошибка. Попробуйте позже'} */
 
   return (
     <>
